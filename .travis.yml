@@ -2,7 +2,7 @@ language: java
 addons:
   apt:
     packages:
-      - openjdk-8-jdk
+      - openjdk-9-jdk
 jdk:
   - oraclejdk9
   - oraclejdk8
