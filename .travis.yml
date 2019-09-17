@@ -1,8 +1,5 @@
 language: java
-addons:
-  apt:
-    packages:
-      - sudo apt install openjdk-9-jdk
+install: sudo apt-get -o Dpkg::Options::="--force-overwrite" install openjdk-9-jdk
 jdk:
   - oraclejdk9
   - oraclejdk8
